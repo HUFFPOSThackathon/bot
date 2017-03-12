@@ -159,10 +159,10 @@ class MyChatBotView(generic.View):
                     pass 
                     
                 try:
-                	if 'coordinates' in message['message']['attachments']['payload']:
+                	if 'coordinates' in message['message']['attachments'][0]['payload']:
 
-                		p.location_lat =   message['message']['attachments']['payload']['coordinates']['lat']
-                		p.location_long =   message['message']['attachments']['payload']['coordinates']['long']  
+                		p.location_lat =   message['message']['attachments'][0]['payload']['coordinates']['lat']
+                		p.location_long =   message['message']['attachments'][0]['payload']['coordinates']['long']  
                 		p.save()
                 		post_facebook_message(sender_id , 'thanks , for providing location ')
                     	post_facebook_message(sender_id,'quickreply_first')   
