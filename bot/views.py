@@ -189,14 +189,14 @@ class MyChatBotView(generic.View):
                 		p.location_long =   message['message']['attachments'][0]['payload']['coordinates']['long']
                 		p.location = 'noida'  
                 		p.save()
-                		post_facebook_message(sender_id , 'thanks , for providing location ')
+                		# post_facebook_message(sender_id , 'thanks , for providing location ')
                 		post_facebook_message(sender_id , 'thanks , for providing location ')
                     	x = constituencyInfo(sender_id)
                     	mlaname = x['Mla Name']
                     	post_facebook_message(sender_id,'your mla is ' + mlaname ) 
                     	post_facebook_message(sender_id,'quickreply_first')
 
-                    	post_facebook_message(sender_id,'quickreply_first')   
+                    	# post_facebook_message(sender_id,'quickreply_first')   
 
                 except Exception as e:
                     print e
