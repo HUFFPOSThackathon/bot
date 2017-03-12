@@ -122,6 +122,7 @@ class MyChatBotView(generic.View):
                     name = '%s %s'%(a['first_name'],a['last_name'])  
                     if message_text.lower() in "hey,hi,supp,hello".split(','):
                     	post_facebook_message(sender_id,'Hey! '+name + ' whatsup Im constiuencyNow and im your new News partner So lets get started by telling us what you want to do today ')
+                    	post_facebook_message(sender_id , 'you send your location by clicking the button below or typing ')
                     	post_facebook_message(sender_id,'location_quickreply')
                     	p.name = name
                     	# p.state = '1'
