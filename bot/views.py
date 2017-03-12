@@ -168,7 +168,7 @@ class MyChatBotView(generic.View):
                 except Exception as e:
                     print e
                     pass     
-                    
+
                 try:
                 	p = person.objects.get_or_create(fbid = sender_id)[0]
                 	if 'coordinates' in message['message']['attachments'][0]['payload']:
@@ -226,7 +226,8 @@ def handle_postback(fbid,payload1):
         
 
         post_facebook_message(fbid,'This is the contact number of your MLA if you want to reguster an issue you can click the button below ') 
-        return post_facebook_message(sender_id,'quickreply_first')   
+        
+        return post_facebook_message(fbid,'quickreply_first')   
 
 
     
