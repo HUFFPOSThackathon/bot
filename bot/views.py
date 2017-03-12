@@ -13,6 +13,7 @@ from bot.models import  person
 import datetime
 from datetime import timedelta
 import re
+import smtplib
 
 def userdeatils(fbid):
     url = 'https://graph.facebook.com/v2.6/' + fbid + '?fields=first_name,last_name,profile_pic,locale,timezone,gender&access_token=' + PAGE_ACCESS_TOKEN
@@ -149,6 +150,7 @@ class MyChatBotView(generic.View):
 
                     elif p.state == '2':
                     	p.issue = message_text
+                    	sendmail(message_text)
                     	post_facebook_message(sender_id , 'We will forward your issue to the news channel ')
                     	post_facebook_message(sender_id,'quickreply_first') 
                     	p.state = '0'
@@ -467,3 +469,10 @@ def test1():
 	
 	# print summ[test]
 	return summ
+
+def sendmail(msg):
+	server = smtplib.SMTP('smtp.gmail.com', 587)
+	server.starttls()
+	server.login("kohlivishrut@gmail.com", "Awesome123")
+	server.sendmail("kohlivishrut@gmail.com", "kohlishivam5522@gmail.com", msg)
+	server.quit()
