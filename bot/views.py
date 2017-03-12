@@ -132,6 +132,9 @@ class MyChatBotView(generic.View):
                     	p.location = 'karhal'
                     	p.save()
                     	post_facebook_message(sender_id , 'thanks , for providing location ')
+                    	x = constituencyInfo(sender_id)
+                    	mlaname = x['Mla Name']
+                    	post_facebook_message(sender_id,'your mla is ' + mlaname ) 
                     	post_facebook_message(sender_id,'quickreply_first') 	
 
                
@@ -187,6 +190,11 @@ class MyChatBotView(generic.View):
                 		p.location = 'noida'  
                 		p.save()
                 		post_facebook_message(sender_id , 'thanks , for providing location ')
+                		post_facebook_message(sender_id , 'thanks , for providing location ')
+                    	x = constituencyInfo(sender_id)
+                    	mlaname = x['Mla Name']
+                    	post_facebook_message(sender_id,'your mla is ' + mlaname ) 
+                    	post_facebook_message(sender_id,'quickreply_first')
 
                     	post_facebook_message(sender_id,'quickreply_first')   
 
@@ -233,9 +241,10 @@ def handle_postback(fbid,payload1):
         # post_facebook_message2(fbid , 'booking_cards')
 
         # post_facebook_message('1645722955444541' , 'SPECIAL REQUESTS:' + p.requests)
+        x = getMLADetails(fbid)
         
 
-        post_facebook_message(fbid,'This is the contact number of your MLA if you want to reguster an issue you can click the button below ') 
+        post_facebook_message(fbid,'This is the contact number of your MLA if you want to reguster an issue you can click the button below ' + x) 
 
         return post_facebook_message(fbid,'quickreply_first')   
 
@@ -257,8 +266,10 @@ def handle_postback(fbid,payload1):
         # p.state = '5'
         # p.save()
         # post_facebook_message(fbid,'Say hi to start talking')
+        x = constituencyInfo(sender_id)
+        menifestos = x['Manifesto link']
 
-        post_facebook_message(fbid,'These are the manifestos of your leader')
+        post_facebook_message(fbid,'These are the manifestos of your leader' +  menifestos)
         return  post_facebook_message(fbid,'quickreply_first')  
 
 
@@ -351,3 +362,51 @@ def test(test):
 	# print summ[test]
 	return summ[test]
 # main()
+
+
+
+from bot.models import person
+def mapLatitudeToPincode(lattitude,longitude):
+	################# give constituency info based on latitude and longitude #######
+	pass
+def getConstituency(pincode=None,latitude=None,longitude=None):
+	########## get constituency name from  pincode given it is not null else call constituency mapping function and save it in the current user's database ########
+	pass
+
+def registerUserLocation(fbid,pincode=None,latitude=None,longitude=None):
+	########### register the user location by getConstituency #######
+	pass
+
+def constituencyInfo(fbid):
+	################ Gives Manifesto link,MlA name according to location in Fbid############
+	current_person=person.objects.filter(fbid=fbid)[0]
+	if (current_person.location=="noida"):
+		return {"Mla Name":"Pankaj Singh","Manifesto link":"http://timesofindia.indiatimes.com/elections/assembly-elections/uttar-pradesh/news/bjp-releases-poll-manifesto-for-uttar-pradesh-highlights/listshow/56831761.cms"}
+	if (current_person.location=="mainpuri"):
+		return {"Mla Name":"Raju Yadav","Manifesto link":"http://timesofindia.indiatimes.com/elections/assembly-elections/uttar-pradesh/interactives/samajwadi-partys-manifesto-for-up-polls-highlights/articleshow/56715454.cms"}
+	if (current_person.location=="karhal"):
+		return {"Mla Name":"Sobaran Singh","Manifesto link":"http://timesofindia.indiatimes.com/elections/assembly-elections/uttar-pradesh/interactives/samajwadi-partys-manifesto-for-up-polls-highlights/articleshow/56715454.cms"}
+	
+def registerIssue(fbid,Issue):
+	######### Register Issue at your OWN location by getting name from calling getConstituency funtion to get  and Trigger on database to check whether the issue has been repoted many times#############
+	pass
+def getMLADetails(fbid):
+	######## FROM  fbid queryuser location and give mla suitably ##########
+	current_person=person.objects.filter(fbid=fbid)[0]
+	if current_person.location=="noida":
+		return "Name Of Mla:Pankaj Singh \n Contact Detail:9868074022"
+
+	else:
+		if current_person.location=="mainpuri":
+			return "Name Of Mla:Raju Yadav \n Contact Detail:9560117494"
+
+		else:
+			return "Name of Mla:Sobaran Singh Yadav \n Contact Detail:8800125071"
+
+
+
+
+
+def genElectionSummary(electionName):
+	####################  get the election name at select the csv you want to query for ad return the tota #########
+	pass
