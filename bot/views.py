@@ -23,7 +23,7 @@ def userdeatils(fbid):
     return data
 
 VERIFY_TOKEN = 'huffpost' 
-PAGE_ACCESS_TOKEN =''   
+PAGE_ACCESS_TOKEN ='EAAEGzsQBZBt4BAHWYKTh3Cg5PERypIJSE08eGiydZASXVPylod3ZAZBbqfTtfqPv46XYc6zjy95ARR5Rd5rabn2kn6Up7MPPIYWZB6q5sDTiuzUhVoYQCii56mPvcbQKe9cmAvgLocVO7cTE22Hb5inVRSHlMyJ9pmn2TNB5MmQZDZD'   
 
 class MyChatBotView(generic.View):
     def get (self, request, *args, **kwargs):
