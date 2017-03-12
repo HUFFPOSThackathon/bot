@@ -344,7 +344,7 @@ def summarizeByClass(dataset):
 
 
 def test(test):
-	filename="static/up.csv"
+	filename="bot/static/up.csv"
 	dataset=loadcsv(filename)
 	summ=summarizeByClass(dataset)
 	
