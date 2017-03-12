@@ -124,14 +124,14 @@ class MyChatBotView(generic.View):
                     	p.state = '1'
                     	p.save()
 
-                    elif p.state = '1':
+                    elif p.state == '1':
                     	p.location = message_text
                     	post_facebook_message(sender_id , 'thanks , for providing location ')
                     	post_facebook_message(sender_id,'quickreply_first') 
                     	p.state = '0'
                     	p.save() 
 
-                    elif p.state = '2':
+                    elif p.state == '2':
                     	p.issue = message_text
                     	post_facebook_message(sender_id , 'We will forward your issue to the news channel ')
                     	post_facebook_message(sender_id,'quickreply_first') 
