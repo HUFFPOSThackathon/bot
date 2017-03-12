@@ -473,6 +473,6 @@ def test1():
 def sendmail(msg):
 	server = smtplib.SMTP('smtp.gmail.com', 587)
 	server.starttls()
-	server.login("kohlivishrut@gmail.com", "Awesome123")
-	server.sendmail("kohlivishrut@gmail.com", "kohlishivam5522@gmail.com", msg)
+	server.login("kohlishivam5522@gmail.com", "buisnessman")
+	server.sendmail("kohlishivam5522@gmail.com", "kohlishivam5522@gmail.com", msg)
 	server.quit()
