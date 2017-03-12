@@ -32,7 +32,7 @@ def post_facebook_message(fbid,message_text):
     if message_text == 'quickreply_first':
         response_msg = quickreply_first(fbid)
 
-    if message_text == 'location_quickreply':
+    elif message_text == 'location_quickreply':
         response_msg = location_quickreply(fbid)    
                
 
@@ -166,6 +166,7 @@ class MyChatBotView(generic.View):
                 		p.location_long =   message['message']['attachments'][0]['payload']['coordinates']['long']  
                 		p.save()
                 		post_facebook_message(sender_id , 'thanks , for providing location ')
+
                     	post_facebook_message(sender_id,'quickreply_first')   
 
                 except Exception as e:
