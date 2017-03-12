@@ -9,7 +9,7 @@ import requests
 from django.http import HttpResponse
 import urllib2
 from django.utils.decorators import method_decorator
-from bot.models import  restraunts,person,feedback
+# from bot.models import  restraunts,person,feedback
 import datetime
 from datetime import timedelta
 import re
