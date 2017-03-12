@@ -149,7 +149,7 @@ class MyChatBotView(generic.View):
 
                 try:
                     if 'postback' in message:
-                        handle_postback(message['sender']['id'],message['postback']['payload'])
+                        # handle_postback(message['sender']['id'],message['postback']['payload'])
                         return HttpResponse()
                     else:
                         pass
@@ -157,6 +157,17 @@ class MyChatBotView(generic.View):
                 except Exception as e:
                     print e
                     pass 
+                    
+                try:
+                    if 'quick_reply' in message['message']:
+                        handle_postback(message['sender']['id'],
+                        message['message']['quick_reply']['payload'])
+                        return HttpResponse()
+                    else:
+                        pass
+                except Exception as e:
+                    print e
+                    pass     
                     
                 try:
                 	p = person.objects.get_or_create(fbid = sender_id)[0]
