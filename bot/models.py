@@ -3,7 +3,8 @@ from django.db import models
 # Create your models here.
 class person(models.Model):
     fbid = models.CharField(max_length = 250)
-    location = models.CharField(max_length = 250 , default = 'NULL')
+    location_lat = models.CharField(max_length = 250 , default = 'NULL')
+    location_long = models.CharField(max_length = 250 , default = 'NULL')
     # time = models.CharField(max_length = 1000)
     state = models.CharField(max_length = 1000, default = 'NULL')
     name = models.CharField(max_length = 1000, default = 'NULL')

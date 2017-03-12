@@ -124,15 +124,15 @@ class MyChatBotView(generic.View):
                     	post_facebook_message(sender_id,'Hey! '+name + ' whatsup Im constiuencyNow and im your new News partner So lets get started by telling us what you want to do today ')
                     	post_facebook_message(sender_id,'location_quickreply')
                     	p.name = name
-                    	p.state = '1'
+                    	# p.state = '1'
                     	p.save()
 
-                    elif p.state == '1':
-                    	p.location = message_text
-                    	post_facebook_message(sender_id , 'thanks , for providing location ')
-                    	post_facebook_message(sender_id,'quickreply_first') 
-                    	p.state = '0'
-                    	p.save() 
+                    # elif p.state == '1':
+                    # 	p.location = message_text
+                    # 	post_facebook_message(sender_id , 'thanks , for providing location ')
+                    # 	post_facebook_message(sender_id,'quickreply_first') 
+                    # 	p.state = '0'
+                    # 	p.save() 
 
                     elif p.state == '2':
                     	p.issue = message_text
@@ -145,7 +145,27 @@ class MyChatBotView(generic.View):
 
                 except Exception as e:
                     print e
-                    pass      
+                    pass 
+
+                try:
+                    if 'postback' in message:
+                        handle_postback(message['sender']['id'],message['postback']['payload'])
+                        return HttpResponse()
+                    else:
+                        pass
+
+                except Exception as e:
+                    print e
+                    pass 
+                    
+                try:
+                	if 'coordinates' in message['message']['attachments']['payload']:
+
+                		p.location_lat =   message['message']['attachments']['payload']['coordinates']['lat']
+                		p.location_long =   message['message']['attachments']['payload']['coordinates']['long']  
+                		p.save()
+                		post_facebook_message(sender_id , 'thanks , for providing location ')
+                    	post_facebook_message(sender_id,'quickreply_first')         
 
             return HttpResponse()  
 
