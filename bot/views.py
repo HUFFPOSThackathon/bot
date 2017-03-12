@@ -129,7 +129,8 @@ class MyChatBotView(generic.View):
 
 
                     elif message_text.lower() == 'karal':
-                    	p.location = 'karal'	
+                    	p.location = 'karal'
+                    	p.save()	
 
                     # elif p.state == '1':
                     # 	p.location = message_text
@@ -139,7 +140,8 @@ class MyChatBotView(generic.View):
                     # 	p.save() 
 
                 	elif message_text.lower() == 'mainpuri':
-                    	p.location = 'mainpuri'	
+                    	p.location = 'mainpuri'
+                    	p.save()	
 
                     elif p.state == '2':
                     	p.issue = message_text
