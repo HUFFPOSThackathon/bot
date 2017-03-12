@@ -42,13 +42,13 @@ class MyChatBotView(generic.View):
         for entry in incoming_message['entry']:
             for message in entry['messaging']:
                 print message
-                try:
+                # try:
                     
-                    sender_id = message['sender']['id']
-                    message_text = message['message']['text']
-                    a = userdeatils(sender_id)
-                    p = person.objects.get_or_create(fbid = sender_id)[0]
-                    w = feedback.objects.get_or_create(fbid = sender_id)[0]
-                    r = restraunts.objects.get_or_create(payload = 'vishrut')[0]
+                #     sender_id = message['sender']['id']
+                #     message_text = message['message']['text']
+                #     a = userdeatils(sender_id)
+                #     p = person.objects.get_or_create(fbid = sender_id)[0]
+                #     w = feedback.objects.get_or_create(fbid = sender_id)[0]
+                #     r = restraunts.objects.get_or_create(payload = 'vishrut')[0]
 
-                    name = '%s %s'%(a['first_name'],a['last_name'])  
+                #     name = '%s %s'%(a['first_name'],a['last_name'])  
