@@ -1,0 +1,402 @@
+1,Behat,INC,Naresh Saini,38.42
+2,Nakur,BJP,Dr.Dharam Singh Saini,36.93
+3,Saharanpur Nagar,SP,Sanjay Garg,46.68
+4,Saharanpur,INC,Masood Akhtar,36.93
+5,Deoband,BJP,Brijesh,43.64
+6,Rampur Maniharan (SC),BJP,Devender Kumar Nim,34.94
+7,Gangoh,BJP,Pradeep Kumar,38.64
+8,Kairana,SP,Nahid Hasan,47.26
+9,Thana Bhawan,BJP,Suresh Kumar,42.78
+10,Shamli,BJP,Tejendra Nirwal,35.69
+11,Budhana,BJP,Umesh Malik,40.55
+12,Charthawal,BJP,Vijay Kumar Kashyap,39.64
+13,Purqazi (SC),BJP,Pramod Utwal,37.93
+14,Muzaffar Nagar,BJP,Kapil Dev Agarwal,45.38
+15,Khatauli,BJP,Vikram Singh,44.47
+16,Meerapur,BJP,Avtar Singh Bhadana,33.77
+17,Najibabad,SP,Tasleem Ahmad,37.55
+18,Nagina (SC),SP,Manoj Kumar Paras,36.75
+19,Barhapur,BJP,Sushant Kumar,35.45
+20,Dhampur,BJP,Ashok Kumar Rana,42.58
+21,Nehtaur (SC),BJP,Omkumar,40.72
+22,Bijnor,BJP,Suchi,42.95
+23,Chandpur,BJP,Kamlesh Saini,42.27
+24,Noorpur,BJP,Lokendra Singh,38.98
+25,Kanth,BJP,Rajesh Kumar Singh (Chunnu),30.15
+26,Thakurdwara,SP,Navab Jan,42.07
+27,Moradabad Rural,SP,Haji Ikram Qureshi,44.23
+28,Moradabad Nagar,BJP,Ritesh Kumar Gupta,44.60
+29,Kundarki,SP,Mohammad Rizwan,41.83
+30,Bilari,SP,Mohd. Faeem,37.40
+31,Chandausi (SC),BJP,Gulab Devi,46.77
+32,Asmoli,SP,Pinki Yadav,39.04
+33,Sambhal,SP,Iqbal Mehmood,32.70
+34,Suar,SP,Mohammad Abdullah Azam Khan,51.68
+35,Chamraua,SP,Naseer Ahmad Khan,44.99
+36,Bilaspur,BJP,Baldev Singh Aulakh,44.30
+37,Rampur,SP,Mohammad Azam Khan,47.47
+38,Milak (SC),BJP,Rajbala,41.54
+39,Dhanaura (SC),BJP,Rajeev Kumar,45.72
+40,Naugawan Sadat,BJP,Chetan Chauhan,41.43
+41,Amroha,SP,Mehboob Ali,37.10
+42,Hasanpur,BJP,Mahendra Singh Khargvanshi,43.65
+43,Siwalkhas,BJP,Jitendra Pal Singh (Billu),32.32
+44,Sardhana,BJP,Sangeet Singh Som,40.93
+45,Hastinapur (SC),BJP,Dinesh Khatik,44.92
+46,Kithore,BJP,Satyavir Tyagi,37.31
+47,Meerut Cantt.,BJP,Satya Prakash Agarwal,55.93
+48,Meerut,SP,Rafiq Ansari,52.79
+49,Meerut South,BJP,Dr. Somendra Tomar,41.81
+50,Chhaprauli,RLD,Sahender Singh Ramala,32.54
+51,Baraut,BJP,Krishanpal Malik Urf Krishanpal Malik,42.89
+52,Baghpat,BJP,Yogesh Dhama,46.61
+53,Loni,BJP,Nandkishor,41.19
+54,Muradnagar,BJP,Ajit Pal Tyagi,55.52
+55,Sahibabad,BJP,Sunil Kumar Sharma,61.70
+57,Modi Nagar,BJP,Dr. Manju Shiwach,50.32
+58,Dholana,BSP,Aaaslam Choudhary,34.90
+59,Hapur (SC),BJP,Vijay Pal (Aadhti),37.97
+60,Garhmukteshwar,BJP,Kamal Singh Malik,41.08
+61,Noida,BJP,Pankaj Singh,63.84
+62,Dadri,BJP,Tejpal Singh Nagar,53.24
+63,Jewar,BJP,Dhirendra Singh,48.71
+64,Sikandrabad,BJP,Bimla Singh Solanki,41.66
+65,Bulandshahr,BJP,Virendra Singh Sirohi,45.51
+66,Syana,BJP,Devendra,54.15
+67,Anupshahr,BJP,Sanjay,48.93
+68,Debai,BJP,Dr. Anita Lodhi Rajput,53.29
+69,Shikarpur,BJP,Anil Kumar,50.26
+70,Khurja (SC),BJP,Vijendra Singh,50.43
+71,Khair (SC),BJP,Anoop,53.51
+72,Barauli,BJP,Shri Dalveer Singh,53.40
+73,Atrauli,BJP,Sandeep Kumar Singh,49.61
+74,Chharra,BJP,Ravendra Pal Singh,48.36
+75,Koil,BJP,Anil Parashar,41.04
+76,Aligarh,BJP,Sanjeev Raja,46.22
+77,Iglas (SC),BJP,Rajveer Diler,54.79
+78,Hathras (SC),BJP,Hari Shankar Mahor,56.10
+79,Sadabad,BSP,Ramveer Upadhyay,40.33
+80,Sikandra Rao,BJP,Birendra Singh Rana,35.21
+81,Chhata,BJP,Laxmi Narayan,51.71
+82,Mant,BSP,Shyam Sunder Sharma,31.27
+83,Goverdhan,BJP,Karinda Singh,45.17
+84,Mathura,BJP,Shrikant Sharma,56.65
+85,Baldev (SC),BJP,Pooran Prakash,38.15
+86,Etmadpur,BJP,Ram Pratap Singh,48.34
+87,Agra Cantt. (SC),BJP,Dr. Girraj Singh Dharmesh,44.77
+88,Agra South,BJP,Yogendra Upadhyaya,51.51
+89,Agra North,BJP,Jagan Prasad Garg,58.55
+90,Agra Rural (SC),BJP,Hemlata Diwakar,51.97
+91,Fatehpur Sikri,BJP,Chau. Udaybhan Singh,47.34
+92,Kheragarh,BJP,Mahesh Kumar Goyal,47.04
+93,Fatehabad,BJP,Jitendra Verma,48.60
+94,Bah,BJP,Rani Pakshalika Singh,41.79
+95,Tundla (SC),BJP,Satya Pal Singh Baghel,48.68
+96,Jasrana,BJP,Ramgopal Pappu Lodhi,44.89
+97,Firozabad,BJP,Manish Asija,44.19
+98,Shikohabad,BJP,Mukesh Verma,40.91
+99,Sirsaganj,SP,Hariom Yadav,44.46
+100,Kasganj,BJP,Devendra Singh Rajput,46.30
+101,Amanpur,BJP,Devendra Pratap,46.36
+102,Patiyali,BJP,Mamtesh,35.70
+103,Aliganj,BJP,Satyapal Singh Rathaur,40.95
+104,Etah,BJP,Vipin Kumar David,40.92
+105,Marhara,BJP,Virendra,48.35
+106,Jalesar (SC),BJP,Sanjeev Kumar Diwakar,44.14
+107,Mainpuri,SP,Rajkumar Alias Raju Yadav,38.51
+108,Bhongaon,BJP,Ram Naresh Agnihotri,47.36
+109,Kishani (SC),SP,Brajesh Kumar,44.83
+110,Karhal,SP,Sobaran Singh Yadav,49.57
+111,Gunnaur,BJP,Ajeet Kumar Urf Raju Yadav,47.14
+112,Bisauli (SC),BJP,Kushagra Sagar,43.79
+113,Sahaswan,SP,Omkar Singh,32.20
+114,Bilsi,BJP,Pt. Radha Krishan Sharma,41.87
+115,Badaun,BJP,Mahesh Chandra Gupta,41.04
+116,Shekhupur,BJP,Dharmendra Kumar Singh Shakya,39.72
+117,Dataganj,BJP,Rajeev Kumar Singh Urf Babbu Bhaiya,35.19
+118,Baheri,BJP,Chhatra Pal Singh,43.93
+119,Meerganj,BJP,Dr. D.C. Verma,51.74
+120,Bhojipura,BJP,Bahoran Lal Maurya,42.07
+121,Nawabganj,BJP,Kesar Singh,43.52
+122,Faridpur (SC),BJP,Dr. Shyam Bihari Lal,43.98
+123,Bithari Chainpur,BJP,Rajesh Kumar Mishra,41.03
+124,Bareilly,BJP,Dr. Arun Kumar,51.37
+125,Bareilly Cantt.,BJP,Rajesh Agarwal,48.22
+126,Aonla,BJP,Dharam Pal Singh,34.76
+127,Pilibhit,BJP,Sanjay Singh Gangwar,54.20
+128,Barkhera,BJP,Kishan Lal Rajpoot,49.37
+129,Puranpur (SC),BJP,Babu Ram Paswan,52.06
+130,Bisalpur,BJP,Agyash Ram Saran Verma,46.43
+131,Katra,BJP,Veer Vikram Singh Prince,39.64
+132,Jalalabad,SP,Sharadvir Singh,36.16
+133,Tilhar,BJP,Roshan Lal Verma,40.03
+134,Powayan (SC),BJP,Chetram,55.25
+135,Shahjahanpur,BJP,Suresh Kumar Khanna,48.89
+136,Dadraul,BJP,Manvendra Singh,39.91
+137,Palia,BJP,Harvinder Kumar Sahani,50.94
+138,Nighasan,BJP,Patel Ramkumar Verma,48.39
+139,Gola Gokrannath,BJP,Arvind Giri,48.83
+140,Sri Nagar (SC),BJP,Manju Tyagi,50.68
+141,Dhaurahra,BJP,Awasthi Bala Prasad,36.06
+142,Lakhimpur,BJP,Yogesh Verma,47.99
+143,Kasta (SC),BJP,Saurabh Singh,44.20
+144,Mohammdi,BJP,Lokendra Pratap Singh,42.44
+145,Maholi,BJP,Shashank Trivedi,33.49
+146,Sitapur,BJP,Rakesh Rathore,42.21
+147,Hargaon (SC),BJP,Suresh Rahi,45.95
+148,Laharpur,BJP,Suneel Verma,34.62
+149,Biswan,BJP,Mahendra Singh,35.92
+150,Sevata,BJP,Gyan Tiwari,44.23
+151,Mahmoodabad,SP,Narendra Singh Verma,38.67
+152,Sidhauli (SC),BSP,Hargovind Bhargava,33.73
+153,Misrikh (SC),BJP,Ram Krishna Bhargava,39.33
+154,Sawaijpur,BJP,Kunvar Madhvendra Pratap,39.94
+155,Shahabad,BJP,Rajani Tiwari,45.30
+156,Hardoi,SP,Nitin Agarwal,42.43
+157,Gopamau (SC),BJP,Shyam Prakash,43.28
+158,Sandi (SC),BJP,Prabhash Kumar,38.79
+159,Bilgram-Mallanwan,BJP,Ashish Kumar Singh Ashu,37.61
+160,Balamau (SC),BJP,Ram Pal Verma,39.85
+161,Sandila,BJP,Raj Kumar Agrawal Urf Rajia,45.49
+162,Bangermau,BJP,Kuldeep Singh Sengar,43.38
+163,Safipur (SC),BJP,Bamba Lal,42.63
+164,Mohan (SC),BJP,Brijesh Kumar,51.78
+165,Unnao,BJP,Pankaj Gupta,51.70
+166,Bhagwantnagar,BJP,Hriday Narayan Dikshit,44.25
+167,Purwa,BSP,Anil Singh,39.83
+168,Malihabad (SC),BJP,Jai Devi,41.58
+169,Bakshi Kaa Talab,BJP,Avinash Trivedi,36.44
+170,Sarojini Nagar,BJP,Swati Singh,37.31
+171,Lucknow West,BJP,Suresh Kumar Shrivastav,42.76
+172,Lucknow North,BJP,Dr.Neeraj Bora,48.27
+173,Lucknow East,BJP,"Ashutosh Tandan ""Gopal Ji""",59.25
+174,Lucknow Central,BJP,Brijesh Pathak,40.20
+175,Lucknow Cantt.,BJP,BJP,50.90
+176,Mohanlalganj (SC),SP,BJP,32.16
+177,Bachhrawan (SC),BJP,BJP,32.97
+178,Tiloi,BJP,BJP,49.10
+179,Harchandpur,INC,BJP,35.10
+180,Rae Bareli,INC,AD(S),61.89
+181,Salon (SC),BJP,BJP,40.44
+182,Sareni,BJP,NISHAD,32.16
+183,Unchahar,SP,BJP,28.54
+184,Jagdishpur (SC),BJP,AD(S),43.64
+185,Gauriganj,SP,BJP,38.75
+186,Amethi,BJP,BJP,34.21
+187,Isauli,SP,BJP,26.94
+188,Sultanpur,BJP,BJP,42.36
+189,Sadar,BJP,BJP,36.43
+190,Lambhua,BJP,BJP,38.98
+191,Kadipur (SC),BJP,BJP,41.49
+192,Kaimganj (SC),BJP,AD(S),49.77
+193,Amritpur,BJP,BJP,53.54
+194,Farrukhabad,BJP,BJP,45.02
+195,Bhojpur,BJP,BJP,49.90
+196,Chhibramau,BJP,BJP,41.75
+197,Tirwa,BJP,BJP,46.71
+198,Kannauj (SC),SP,AD(S),40.17
+199,Jaswantnagar,SP,BJP,54.42
+200,Etawah,BJP,NISHAD,41.28
+201,Bharthana (SC),BJP,BJP,35.63
+202,Bidhuna,BJP,AD(S),37.51
+203,Dibiyapur,BJP,BJP,37.30
+204,Auraiya (SC),BJP,BJP,45.22
+205,Rasulabad (SC),BJP,BJP,46.67
+206,Akbarpur - Raniya,BJP,BJP,43.03
+207,Sikandra,BJP,BJP,45.36
+208,Bhognipur,BJP,BJP,33.60
+209,Bilhaur (SC),BJP,BJP,42.51
+210,Bithoor,BJP,AD(S),49.14
+211,Kalyanpur,BJP,BJP,48.69
+212,Govindnagar,BJP,BJP,60.47
+213,Sishamau,SP,BJP,47.35
+214,Arya Nagar,SP,BJP,48.14
+215,Kidwai Nagar,BJP,BJP,54.31
+216,Kanpur Cantt.,INC,AD(S),46.00
+217,Maharajpur,BJP,BJP,55.93
+218,Ghatampur (SC),BJP,NISHAD,48.52
+219,Madhaugarh,BJP,BJP,43.04
+220,Kalpi,BJP,AD(S),46.22
+221,Orai (SC),BJP,BJP,52.98
+222,Babina,BJP,BJP,42.02
+223,Jhansi Nagar,BJP,BJP,48.68
+224,Mauranipur (SC),BJP,BJP,36.80
+225,Garautha,BJP,BJP,40.81
+226,Lalitpur,BJP,BJP,49.38
+227,Mehroni (SC),BJP,BJP,51.76
+228,Hamirpur,BJP,AD(S),43.90
+229,Rath (SC),BJP,BJP,60.96
+230,Mahoba,BJP,BJP,44.76
+231,Charkhari,BJP,BJP,46.03
+232,Tindwari,BJP,BJP,44.47
+233,Baberu,BJP,BJP,39.29
+234,Naraini (SC),BJP,AD(S),45.30
+235,Banda,BJP,BJP,45.61
+236,Chitrakoot,BJP,NISHAD,40.85
+237,Manikpur,BJP,BJP,43.68
+238,Jahanabad,AD(S),AD(S),44.87
+239,Bindki,BJP,BJP,53.27
+240,Fatehpur,BJP,BJP,45.85
+241,Ayah Shah,BJP,BJP,53.80
+242,Husainganj,BJP,BJP,41.90
+243,Khaga (SC),BJP,BJP,51.45
+244,Rampur Khas,INC,BJP,47.74
+245,Babaganj (SC),IND,BJP,52.26
+246,Kunda,IND,AD(S),67.95
+247,Bishwavnathganj,AD(S),Rakesh Kumar Verma Alias Dr.R.K.Verma,41.65
+248,Pratapgarh,AD(S),Sangam Lal Gupta,43.65
+249,Patti,BJP,Rajendra Pratap Singh Alias Moti,36.08
+250,Raniganj,BJP,Abhay Kumar Alias Dhiraj Ojha,37.83
+251,Sirathu,BJP,Sheetla Prasad,40.07
+252,Manjhanpur (SC),BJP,Lal Bahadur,41.50
+253,Chail,BJP,Sanjay Kumar,42.15
+254,Phaphamau,BJP,Vikramajeet,40.55
+255,Soraon (SC),AD(S),Jamuna Prasad,36.59
+256,Phulpur,BJP,Praveen Kumar Singh,41.94
+257,Pratappur,BSP,Mohd Mujtaba Siddqui,32.17
+258,Handia,BSP,Hakim Lal,35.84
+259,Meja,BJP,Neelam Karwariya,37.42
+260,Karachhana,SP,Ujjwal Raman Singh,40.66
+261,Allahabad West,BJP,Sidharth Nath Singh,43.04
+262,Allahabad North,BJP,Harshvardhan Bajpai,51.48
+263,Allahabad South,BJP,Anil Rajbhar,52.53
+264,Bara (SC),BJP,Surendra Narayan Singh,41.69
+265,Koraon (SC),BJP,Ravindra Jaiswal,51.18
+266,Kursi,BJP,Dr. Neelkanth Tiwari,41.26
+267,Ram Nagar,BJP,Saurabh Srivastava,39.87
+268,Barabanki,AD(S),"Neel Ratan Singh Patel ""Neelu""",40.54
+269,Zaidpur (SC),BJP,Ravindra Nath Tripathi,43.34
+270,Dariyabad,NISHAD,Vijay Mishra,46.81
+271,Rudauli,BJP,Dinanath Bhaskar,42.96
+272,Haidergarh (SC),AD(S),Rahul Prakash,45.52
+273,Milkipur (SC),BJP,Ratnakar Mishr,43.51
+274,Bikapur,BJP,Shuchismita Maurya,42.20
+275,Ayodhya,BJP,Anurag Singh,49.20
+276,Goshainganj,BJP,Rama Shankar Singh,39.41
+277,Katehari,BJP,Anil Kumar Maurya,35.99
+278,Tanda,BJP,Bhupesh Chaubey,36.35
+279,Alapur (SC),BJP,Sanjiv Kumar,36.59
+280,Jalalpur,AD(S),Har Iram,37.51
+281,Akbarpur,BSP,Ram Achal Rajbhar,35.40
+282,Balha (SC),BJP,Akshayvaralal,51.46
+283,Nanpara,BJP,Madhuri Verma,44.71
+284,Matera,BJP,Anil Rajbhar,39.45
+285,Mahasi,BJP,Surendra Narayan Singh,53.09
+286,Bahraich,BJP,Ravindra Jaiswal,41.00
+287,Payagpur,BJP,Dr. Neelkanth Tiwari,49.59
+288,Kaiserganj,BJP,Saurabh Srivastava,40.67
+289,Bhinga,AD(S),"Neel Ratan Singh Patel ""Neelu""",33.71
+290,Shrawasti,BJP,Ravindra Nath Tripathi,32.86
+291,Tulsipur,NISHAD,Vijay Mishra,31.55
+292,Gainsari,BJP,Dinanath Bhaskar,28.41
+293,Utraula,AD(S),Rahul Prakash,42.94
+294,Balrampur (SC),BJP,Ratnakar Mishr,46.25
+295,Mehnaun,BJP,Shuchismita Maurya,40.73
+296,Gonda,BJP,Anurag Singh,30.10
+297,Katra Bazar,BJP,Rama Shankar Singh,41.57
+298,Colonelganj,BJP,Anil Kumar Maurya,45.41
+299,Tarabganj,BJP,Bhupesh Chaubey,49.34
+300,Mankapur (SC),BJP,Sanjiv Kumar,57.30
+301,Gaura,AD(S),Har Iram,41.79
+302,Shohratgarh,BJP,Anil Rajbhar,36.23
+303,Kapilvastu (SC),BJP,Surendra Narayan Singh,48.52
+304,Bansi,BJP,Ravindra Jaiswal,42.03
+305,Itwa,BJP,Dr. Neelkanth Tiwari,36.99
+306,Doomariyaganj,BJP,Saurabh Srivastava,33.35
+307,Harraiya,AD(S),"Neel Ratan Singh Patel ""Neelu""",45.20
+308,Kaptanganj,BJP,Ravindra Nath Tripathi,35.07
+309,Rudhauli,NISHAD,Vijay Mishra,40.53
+310,Basti Sadar,BJP,Dinanath Bhaskar,44.86
+311,Mahadewa (SC),AD(S),Rahul Prakash,41.36
+312,Menhdawal,BJP,Ratnakar Mishr,39.10
+313,Khalilabad,BJP,Shuchismita Maurya,32.17
+314,Dhanghata (SC),BJP,Anurag Singh,39.73
+315,Pharenda,BJP,Rama Shankar Singh,38.36
+316,Nautanwa,BJP,Anil Kumar Maurya,37.07
+317,Siswa,BJP,Bhupesh Chaubey,51.34
+318,Maharajganj (SC),BJP,Sanjiv Kumar,50.63
+319,Paniyara,AD(S),Har Iram,48.92
+320,Caimpiyarganj,BJP,Fateh Bahadur,42.29
+321,Pipraich,BJP,Mahendra Pal Singh,33.63
+322,Gorakhpur Urban,BJP,Dr. Radha Mohan Das Agrawal,55.85
+323,Gorakhpur Rural,BJP,Bipin Singh,35.47
+324,Sahajanwa,BJP,Sheetal Pandey,34.49
+325,Khajani (SC),BJP,Sant Prasad,38.07
+326,Chauri-Chaura,BJP,Sangeeta Yadav,45.35
+327,Bansgaon (SC),BJP,Vimlesh Paswan,40.25
+328,Chillupar,BSP,Vinay Shankar Tiwari,35.48
+329,Khadda,BJP,Jatashanker Tripathi,42.26
+330,Padrauna,BJP,Swami Prasad Maurya,44.44
+331,Tamkuhi Raj,INC,Ajay Kumar Lallu,28.43
+332,Fazilnagar,BJP,Ganga,47.94
+333,Kushinagar,BJP,Rajnikant Mani Tripathi,47.72
+334,Hata,BJP,Pawan Kumar,49.87
+335,Ramkola (SC),SBSP,Ramanand Baudh,52.10
+336,Rudrapur,BJP,Anil Rajbhar,47.31
+337,Deoria,BJP,Surendra Narayan Singh,48.03
+338,Pathardeva,BJP,Ravindra Jaiswal,52.09
+339,Rampur Karkhana,BJP,Dr. Neelkanth Tiwari,32.69
+340,Bhatpar Rani,BJP,Saurabh Srivastava,34.09
+341,Salempur (SC),AD(S),"Neel Ratan Singh Patel ""Neelu""",46.90
+342,Barhaj,BJP,Ravindra Nath Tripathi,36.76
+343,Atrauliya,NISHAD,Vijay Mishra,35.17
+344,Gopalpur,BJP,Dinanath Bhaskar,37.50
+345,Sagri,AD(S),Rahul Prakash,34.73
+346,Mubarakpur,BJP,Ratnakar Mishr,36.64
+347,Azamgarh,BJP,Shuchismita Maurya,41.17
+348,Nizamabad,BJP,Anurag Singh,40.17
+349,Phoolpur Pawai,BJP,Rama Shankar Singh,38.35
+350,Didarganj,BJP,Anil Kumar Maurya,33.15
+351,Lalganj (SC),BJP,Bhupesh Chaubey,35.71
+352,Mehnagar (SC),BJP,Sanjiv Kumar,34.15
+353,Madhuban,AD(S),Har Iram,40.26
+354,Ghosi,BJP,Saurabh Srivastava,36.54
+355,Muhammadabad- Gohna (Sc),AD(S),"Neel Ratan Singh Patel ""Neelu""",34.70
+356,Mau,BJP,Ravindra Nath Tripathi,36.39
+357,Belthara Road (SC),NISHAD,Vijay Mishra,40.82
+358,Rasara,BJP,Dinanath Bhaskar,47.77
+359,Sikanderpur,AD(S),Rahul Prakash,42.24
+360,Phephana,BJP,Ratnakar Mishr,39.51
+361,Ballia Nagar,BJP,Shuchismita Maurya,49.96
+362,Bansdih,BJP,Anurag Singh,24.39
+363,Bairia,BJP,Rama Shankar Singh,40.02
+364,Badlapur,BJP,Anil Kumar Maurya,31.61
+365,Shahganj,BJP,Bhupesh Chaubey,31.65
+366,Jaunpur,BJP,Sanjiv Kumar,40.04
+367,Malhani,AD(S),Har Iram,33.40
+368,Mungra Badshahpur,BSP,Sushma Patel,34.04
+369,Machhlishahr (SC),SP,Jagdish Sonkar,34.73
+370,Mariyahu,AD(S),Leena Tiwari,32.66
+371,Zafrabad,BJP,Anil Rajbhar,41.65
+372,Kerakat (SC),BJP,Surendra Narayan Singh,37.02
+373,Jakhanian (SC),BJP,Ravindra Jaiswal,34.99
+374,Saidpur (SC),BJP,Dr. Neelkanth Tiwari,35.96
+375,Ghazipur,BJP,Saurabh Srivastava,43.12
+376,Jangipur,AD(S),"Neel Ratan Singh Patel ""Neelu""",33.29
+377,Zahoorabad,BJP,Ravindra Nath Tripathi,37.56
+378,Mohammadabad,NISHAD,Vijay Mishra,53.08
+379,Zamania,BJP,Dinanath Bhaskar,35.36
+380,Mughalsarai,AD(S),Rahul Prakash,37.57
+381,Sakaldiha,BJP,Ratnakar Mishr,39.47
+382,Saiyadraja,BJP,Shuchismita Maurya,39.89
+383,Chakia (SC),BJP,Anurag Singh,41.30
+384,Pindra,BJP,Rama Shankar Singh,44.34
+385,Ajagara (SC),BJP,Anil Kumar Maurya,38.11
+386,Shivpur,BJP,Bhupesh Chaubey,48.47
+387,Rohaniya,BJP,Sanjiv Kumar,51.28
+388,Varanasi North,AD(S),Har Iram,50.95
+389,Varanasi South,BJP,Dr. Neelkanth Tiwari,51.76
+390,Varanasi Cantt.,BJP,Saurabh Srivastava,58.26
+391,Sevapuri,AD(S),"Neel Ratan Singh Patel ""Neelu""",50.08
+392,Bhadohi,BJP,Ravindra Nath Tripathi,33.20
+393,Gyanpur,NISHAD,Vijay Mishra,31.81
+394,Aurai (SC),BJP,Dinanath Bhaskar,40.44
+395,Chhanbey (SC),AD(S),Rahul Prakash,49.59
+396,Mirzapur,BJP,Ratnakar Mishr,48.48
+397,Majhawan,BJP,Shuchismita Maurya,44.90
+398,Chunar,BJP,Anurag Singh,48.76
+399,Marihan,BJP,Rama Shankar Singh,44.70
+400,Ghorawal,BJP,Anil Kumar Maurya,47.82
+401,Robertsganj,BJP,Bhupesh Chaubey,44.21
+402,Obra,BJP,Sanjiv Kumar,47.93
+403,Duddhi (SC),AD(S),Har Iram,32.76

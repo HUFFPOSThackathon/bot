@@ -127,12 +127,19 @@ class MyChatBotView(generic.View):
                     	# p.state = '1'
                     	p.save()
 
+
+                    elif message_text.lower() == 'karal':
+                    	p.location = 'karal'	
+
                     # elif p.state == '1':
                     # 	p.location = message_text
                     # 	post_facebook_message(sender_id , 'thanks , for providing location ')
                     # 	post_facebook_message(sender_id,'quickreply_first') 
                     # 	p.state = '0'
                     # 	p.save() 
+
+                	elif message_text.lower() == 'mainpuri':
+                    	p.location = 'mainpuri'	
 
                     elif p.state == '2':
                     	p.issue = message_text
@@ -174,7 +181,8 @@ class MyChatBotView(generic.View):
                 	if 'coordinates' in message['message']['attachments'][0]['payload']:
 
                 		p.location_lat =   message['message']['attachments'][0]['payload']['coordinates']['lat']
-                		p.location_long =   message['message']['attachments'][0]['payload']['coordinates']['long']  
+                		p.location_long =   message['message']['attachments'][0]['payload']['coordinates']['long']
+                		p.location = 'noida'  
                 		p.save()
                 		post_facebook_message(sender_id , 'thanks , for providing location ')
 
@@ -226,7 +234,7 @@ def handle_postback(fbid,payload1):
         
 
         post_facebook_message(fbid,'This is the contact number of your MLA if you want to reguster an issue you can click the button below ') 
-        
+
         return post_facebook_message(fbid,'quickreply_first')   
 
 
@@ -257,7 +265,8 @@ def handle_postback(fbid,payload1):
         # p.state = '5'
         # p.save()
         # post_facebook_message(fbid,'Say hi to start talking')
-        post_facebook_message(fbid , 'This is the summary ')
+        summary = test(p.location)
+        post_facebook_message(fbid , summary )
         return post_facebook_message(fbid,'quickreply_first')    
       
 
@@ -290,3 +299,53 @@ def location_quickreply(fbid):
 	return json.dumps(response_object) 
 
 
+
+import csv
+import random
+import math
+def loadcsv(filename):
+	lines=csv.reader(open(filename,"rb"))
+	dataset=list(lines)
+	for i in range(len(dataset)):
+			dataset[i]=[x for x in dataset[i]]
+	return dataset
+def seperateByClass(dataset):
+	seperated={}
+	vector=[]
+	for i in range(len(dataset)):
+		vector=dataset[i]
+		vector[1]=vector[1].lower()
+		if vector[1] not in seperated:
+			seperated[vector[1]]=vector
+	return seperated
+
+def summarize(dataset):
+	summaries=' '
+	summaries=summaries+dataset[3]+" from "+dataset[2]+" won from constituency "+dataset[1]+" by "+dataset[-1]+" percentage of votes "
+	return summaries
+def summarizeByClass(dataset):
+	seperated={}
+	seperated=seperateByClass(dataset)
+	summaries={}
+	for classvalue,instances in seperated.iteritems():
+		summaries[classvalue]=summarize(instances)
+	return summaries
+
+def summarizeByClass(dataset):
+	seperated={}
+	seperated=seperateByClass(dataset)
+	summaries={}
+	for classvalue,instances in seperated.iteritems():
+		summaries[classvalue]=summarize(instances)
+	return summaries
+
+
+
+def test(test):
+	filename="up.csv"
+	dataset=loadcsv(filename)
+	summ=summarizeByClass(dataset)
+	
+	# print summ[test]
+	return summ[test]
+# main()
