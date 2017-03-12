@@ -165,7 +165,11 @@ class MyChatBotView(generic.View):
                 		p.location_long =   message['message']['attachments']['payload']['coordinates']['long']  
                 		p.save()
                 		post_facebook_message(sender_id , 'thanks , for providing location ')
-                    	post_facebook_message(sender_id,'quickreply_first')         
+                    	post_facebook_message(sender_id,'quickreply_first')   
+
+                except Exception as e:
+                    print e
+                    pass    	      
 
             return HttpResponse()  
 
