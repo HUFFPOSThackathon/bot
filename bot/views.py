@@ -112,13 +112,13 @@ class MyChatBotView(generic.View):
                     sender_id = message['sender']['id']
                     message_text = message['message']['text']
                     a = userdeatils(sender_id)
-                    p = person.objects.get_or_create(fbid = sender_id)[0]
-                    w = feedback.objects.get_or_create(fbid = sender_id)[0]
-                    r = restraunts.objects.get_or_create(payload = 'vishrut')[0]
+                    # p = person.objects.get_or_create(fbid = sender_id)[0]
+                    # w = feedback.objects.get_or_create(fbid = sender_id)[0]
+                    # r = restraunts.objects.get_or_create(payload = 'vishrut')[0]
 
                     name = '%s %s'%(a['first_name'],a['last_name'])  
                     if message_text.lower() in "hey,hi,supp,hello".split(','):
-                    	post_facebook_message(sender_id,'Hey! whatsup Im constiuencyNow and im your new News partner So lets get started by telling us what you want to do today ')
+                    	post_facebook_message(sender_id,'Hey! '+name + ' whatsup Im constiuencyNow and im your new News partner So lets get started by telling us what you want to do today ')
                     	post_facebook_message(sender_id,'quickreply_first')
 
 
