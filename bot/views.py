@@ -266,7 +266,7 @@ def handle_postback(fbid,payload1):
         # p.state = '5'
         # p.save()
         # post_facebook_message(fbid,'Say hi to start talking')
-        x = constituencyInfo(sender_id)
+        x = constituencyInfo(fbid)
         menifestos = x['Manifesto link']
 
         post_facebook_message(fbid,'These are the manifestos of your leader' +  menifestos)
