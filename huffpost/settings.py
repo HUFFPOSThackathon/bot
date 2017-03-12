@@ -73,7 +73,7 @@ db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(db_from_env)
 # Internationalization
 STATIC_ROOT = 'staticfiles'
-STATIC_PATH = os.path.join(BASE_DIR,'chatbot/static')
+STATIC_PATH = os.path.join(BASE_DIR,'bot/static')
 
 STATIC_URL = '/static/' 
 
