@@ -31,6 +31,9 @@ def post_facebook_message(fbid,message_text):
     
     if message_text == 'quickreply_first':
         response_msg = quickreply_first(fbid)
+
+    if message_text == 'location_quickreply':
+        response_msg = location_quickreply(fbid)    
                
 
 
