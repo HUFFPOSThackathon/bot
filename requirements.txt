@@ -1,0 +1,5 @@
+Django==1.7
+gunicorn==19.6.0
+requests
+dj-database-url
+psycopg2==2.6.1
