@@ -130,18 +130,18 @@ class MyChatBotView(generic.View):
 
                     elif message_text.lower() == 'karal':
                     	p.location = 'karal'
-                    	p.save()	
+                    	p.save()
+                    	post_facebook_message(sender_id , 'thanks , for providing location ')
+                    	post_facebook_message(sender_id,'quickreply_first') 	
 
-                    # elif p.state == '1':
-                    # 	p.location = message_text
-                    # 	post_facebook_message(sender_id , 'thanks , for providing location ')
-                    # 	post_facebook_message(sender_id,'quickreply_first') 
-                    # 	p.state = '0'
-                    # 	p.save() 
+               
 
                 	elif message_text.lower() == 'mainpuri':
                     	p.location = 'mainpuri'
-                    	p.save()	
+
+                    	p.save()
+                    	post_facebook_message(sender_id , 'thanks , for providing location ')
+                    	post_facebook_message(sender_id,'quickreply_first') 	
 
                     elif p.state == '2':
                     	p.issue = message_text
