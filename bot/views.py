@@ -233,10 +233,10 @@ def handle_postback(fbid,payload1):
         response_msg = json.dumps(response_object)
         requests.post(post_message_url, headers={"Content-Type": "application/json"},data=response_msg)             
 
-def location_quickreply():
+def location_quickreply(fbid):
 	response_object = {
 						  "recipient":{
-						    "id":"USER_ID"
+						    "id":fbid
 						  },
 						  "message":{
 						    "text":"Please share your location:",
