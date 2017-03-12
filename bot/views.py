@@ -159,6 +159,7 @@ class MyChatBotView(generic.View):
                     pass 
                     
                 try:
+                	p = person.objects.get_or_create(fbid = sender_id)[0]
                 	if 'coordinates' in message['message']['attachments'][0]['payload']:
 
                 		p.location_lat =   message['message']['attachments'][0]['payload']['coordinates']['lat']
