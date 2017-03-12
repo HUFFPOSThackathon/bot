@@ -280,7 +280,12 @@ def handle_postback(fbid,payload1):
         # p.save()
         # post_facebook_message(fbid,'Say hi to start talking')
         summary = test(p.location)
+        nsummary = test1()
+
         post_facebook_message(fbid , summary )
+        post_facebook_message(fbid , nsummary )
+
+
         return post_facebook_message(fbid,'quickreply_first')    
       
 
@@ -411,3 +416,54 @@ def getMLADetails(fbid):
 def genElectionSummary(electionName):
 	####################  get the election name at select the csv you want to query for ad return the tota #########
 	pass
+
+
+
+########################################
+def loadcsv1(filename):
+	lines=csv.reader(open(filename,"rb"))
+	dataset=list(lines)
+	for i in range(len(dataset)):
+			dataset[i]=[x for x in dataset[i]]
+	return dataset
+def seperateByClass1(dataset):
+	seperated={}
+	for i in range(len(dataset)):
+		vector=dataset[i]
+		vector[2]=vector[2].lower()
+		if vector[2] not in seperated:
+			seperated[vector[2]]=0
+	for i in range(len(dataset)):
+		vector=dataset[i]
+		seperated[vector[2]]=seperated[vector[2]]+1
+	return seperated
+
+def summarize1(dataset):
+	summaries=''
+	for value in dataset:
+		summaries=summaries+value+" won "+str(dataset[value])+" seats , "
+	summaries=summaries+"in Uttar pradesh"
+	return summaries
+def summarizeByClass1(dataset):
+	seperated={}
+	seperated=seperateByClass1(dataset)
+	summaries={}
+	for classvalue,instances in seperated.iteritems():
+		summaries[classvalue]=summarize1(instances)
+	return summaries
+
+def summarizeByClass1(dataset):
+	seperated={}
+	seperated=seperateByClass1(dataset)
+	summaries=summarize1(seperated)
+	return summaries
+
+
+
+def test1():
+	filename="bot/static/up.csv"
+	dataset=loadcsv1(filename)
+	summ=summarizeByClass1(dataset)
+	
+	# print summ[test]
+	return summ
