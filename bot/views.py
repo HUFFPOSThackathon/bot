@@ -150,7 +150,7 @@ class MyChatBotView(generic.View):
 
                     elif p.state == '2':
                     	p.issue = message_text
-                    	sendmail(message_text)
+                    	# sendmail(message_text)
                     	post_facebook_message(sender_id , 'We will forward your issue to the news channel ')
                     	post_facebook_message(sender_id,'quickreply_first') 
                     	p.state = '0'
